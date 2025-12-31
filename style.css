@@ -74,6 +74,40 @@ html[data-theme="dark"] .timeline-item::after {
 
 
 
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.burger-menu span {
+    height: 3px;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.burger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+
 /* selecteur des themes */
 .theme-selector {
     position: relative;
@@ -674,25 +708,6 @@ body {
 
 
 
-.burger-menu {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 28px;
-    height: 22px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-.burger-menu span {
-    height: 3px;
-    width: 100%;
-    background-color: var(--primary-color);
-    border-radius: 2px;
-    transition: 0.3s ease;
-}
 
 
 .passion-card {
