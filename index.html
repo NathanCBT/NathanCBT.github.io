@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Nathan Cobat Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/white-logo1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container-nav">
+            <div class="logo">
+                <a href="#accueil">
+                    <img id="logo1" src="img/logo1.png" alt="logo">
+                </a>
+            </div>
+            <button class="burger-menu" id="burger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <div class="nav-links">
+                <a href="#accueil">Accueil</a>
+                <a href="#a-propos">À propos</a>
+                <a href="#parcours">Parcours</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+                <a href="#passions">Passions</a>
+            </div>
+            <div class="theme-selector">
+                <button id="theme-btn">
+                    <i class="fa-solid fa-palette"></i>
+                    <span>Thèmes</span>
+                </button>
+                <div id="theme-dropdown" class="dropdown-content">
+                    <button class="theme-option" data-theme="default">Thème par défaut</button>
+                    <button class="theme-option" data-theme="light">Thème clair</button>
+                    <button class="theme-option" data-theme="dark">Thème sombre</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil" class="toto">
+            <img id="logo2" src="img/logo2.png" alt="NATHAN COBAT"> 
+            <p>Étudiant en Bachelor Développeur Full Stack – CODA Orléans</p>
+            <div class="toto-buttons">
+                <a href="#parcours" class="cta-button">Découvrir mon parcours</a>
+                <a href="https://github.com/NathanCBT" target="_blank" class="cta-button">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Voir mon GitHub</span>
+                </a>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="a-propos" class="about-section">
+                <img src="img/IMG_8776.jpeg" alt="Photo de Nathan Cobat">
+                <div class="about-text-content">
+                    <h2>A PROPOS DE MOI</h2>
+                    <p><strong>Étudiant en Bachelor Développeur Full Stack – CODA Orléans</strong></p>
+                    <p>
+                       Actuellement en première année de Bachelor Développeur Full Stack, je recherche une alternance pour 
+                       septembre 2026 afin de renforcer mes compétences techniques et de mettre en pratique mes connaissances. 
+                    </p>
+                    <p>
+                       Curieux et impliqué, je prends l’initiative de poser des questions pour approfondir ma compréhension et 
+                       progresser rapidement.
+                    </p>
+                    <p>
+                        Passionné par l’informatique depuis l’adolescence, je souhaite aujourd’hui transformer 
+                        cette passion en expertise concrète au service d’une entreprise.
+                    </p>
+                </div>
+            </section>
+
+            <section id="competences" class="skills-section">
+                <h2>COMPÉTENCES</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Hard Skills</h3>
+                        <ul class="competences_ul">
+                            <li>Linux / Shell</li>
+                            <li>Git</li>
+                            <li>C</li>
+                            <li>HTML / CSS</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Esprit d’initiative et force de proposition</li>
+                            <li>Curieux</li>
+                            <li>Dynamique</li>
+                            <li>Apprenant agile</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Langues</h3>
+                        <ul>
+                            <li>Anglais (B2)</li>
+                            <li>Espagnol (A2)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section id="parcours" class="container">
+            <h2>PARCOURS</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-date">2025 - 2028</div>
+                    <div class="timeline-content">
+                        <h3>DÉVELOPPEUR FULL-STACK</h3>
+                        <h4>Ecole CODA - Orléans</h4>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-date">AVRIL 2025</div>
+                    <div class="timeline-content">
+                        <h3>AGENT ADMINISTRATIF</h3>
+                        <h4>Thélem Assurances</h4>
+                        <p>
+                            Numérisation des archives de Réassurance sur 40 ans (traités de réassurance). Scan, organisation thématique et
+                            classement.
+                            Rapports journaliers sur l’avancée des travaux avec le responsable du service pour validation.
+                            Rigueur, analyse des informations, respect des délais, tenue des objectifs.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-date-juillet">JUILLET - AOÛT 2025</div>
+                    <div class="timeline-content">
+                        <h3>JOURNÉE D'OBSEVRATION</h3>
+                        <h4>Thélem Assurances - Service informatique</h4>
+                        <p>
+                            Découverte des différents métiers dans le domaine de l’informatique, analyse du travail en équipe.
+                            Découverte des méthodes de travail collaboratif, de l’avancée du poste multicanal appelé Shiva
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-date">2023 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>BACCALAUREAT STI2D SIN</h3>
+                        <h4>Lycée Sainte Croix Saint Euverte</h4>
+                        <p>Sciences et Technologies de l'Industrie et du Développement Durable, option Systèmes d'information et Numérique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets" class="container">
+            <h2>PROJETS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Jeu de cartes « Bataille »</h3>
+                    <p>Implémentation en C dans le terminal, mettant en pratique les structures, énumérations, tableaux et la logique complète du jeu (mélange, distribution, comparaison et déroulement des tours).</p>
+                    <div class="project-links">
+                        <a href="https://github.com/NathanCBT/war-game-simulation" target="_blank"><i class="fa-solid fa-magnifying-glass"></i> Voir</a>
+                        <a href="https://github.com/NathanCBT/war-game-simulation" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>BATAILLE-NAVALE</h3>
+                    <p>Projet en PHP et SQL pour gérer la base de données et la logique du jeu.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/NathanCBT/BATAILLE-NAVALE" target="_blank"><i class="fa-solid fa-magnifying-glass"></i> Voir</a>
+                        <a href="https://github.com/NathanCBT/BATAILLE-NAVALE" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Street Art Blog</h3>
+                    <p>Création d'une page HTML responsive ainsi que la galerie pour un blog sur le street art.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/NathanCBT/Street_Art_Blog_responsive_html_css" target="_blank"><i class="fa-solid fa-magnifying-glass"></i> Voir</a>
+                        <a href="https://github.com/NathanCBT/Street_Art_Blog_responsive_html_css" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>ElderKeyBoard</h3>
+                    <p>Interface matérielle basée sur Arduino qui facilite l'accès aux outils numériques pour les personnes peu à l'aise avec l'informatique.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/NathanCBT/ElderKeyBoard" target="_blank"><i class="fa-solid fa-magnifying-glass"></i> Voir</a>
+                        <a href="https://github.com/NathanCBT/ElderKeyBoard" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>CONTACT</h2>
+            <div class="contact-section">
+                <div class="contact-info-left">
+                    <div class="contact-item-1">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>nathancobat1@gmail.com</p>
+                    </div>
+                    <div class="contact-item-2">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <p>45 000 Orléans</p>
+                    </div>
+                    <div class="contact-item-3">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/nathan-cobat-8b54a2386/" target="_blank">Mon LinkedIn</a>
+                    </div>
+                    <div class="contact-item-4">
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/NathanCBT" target="_blank">Mon GitHub</a>
+                    </div>
+                </div>
+                <div class="contact-info-right">
+                    <p>
+                        Si mon profil vous intéresse, n’hésitez pas à consulter mes projets sur GitHub
+                        et à me contacter par e-mail ou via LinkedIn.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="passions">
+            <h2>MES PASSIONS</h2>
+            <div class="galerie-grid">
+                <div class="galerie-container">
+                    <h3>Cyclisme</h3>
+                    <div class="galerie-item">
+                        <div class="image">
+                            <a href="https://fr.uci.org/article/jeux-olympiques-de-paris-2024-lextraordinaire-double-devenepoel/7bTX17xnKnj82dlu6ie2lg" target="_blank">
+                                <img src="img/remco-evenepoel.jpg" alt="cycling">
+                                <div class="description">
+                                    Remco Evenepoel. Un coureur explosif qui m'inspire.
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="galerie-container">
+                    <h3>Tech</h3>
+                    <div class="galerie-item">
+                        <div class="image">
+                            <a href="https://www.cnrs.fr/fr/presse/supercalculateur-jean-zay-la-france-multiplie-par-4-les-ressources-scientifiques-en-ia"
+                                target="_blank">
+                                <img src="img/jea-zay-cnrs.png" alt="supercomputer">
+                                <div class="description">
+                                    Jean Zay. Un supercalculateur français dédié à l'IA et à la recherche.
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="galerie-container">
+                    <h3>Horlogerie</h3>
+                    <div class="galerie-item">
+                        <div class="image">
+                            <a href="https://lacotedesmontres.com/Jaeger-LeCoultre-deploie-l-infini-en-quatre-chapitres-avec-la-Reverso-Hybris-Mechanica-Calibre-185-No_12650.htm"
+                                target="_blank">
+                                <img src="img/hybris-mechanica.jpg" alt="watchmaking">
+                                <div class="description">
+                                    Jaeger-LeCoultre Reverso Hybris Mechanica. Une prouesse horlogère.
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="galerie-container">
+                    <h3>Comic book</h3>
+                    <div class="galerie-item">
+                        <div class="image">
+                            <img src="img/comic-book-spider-man.jpg" alt="comic book">
+                            <div class="description">
+                                Spider-Man. Un univers qui m'inspire depuis toujours.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="galerie-container">
+                    <h3>Astronomie</h3>
+                    <div class="galerie-item">
+                        <div class="image">
+                            <a href="https://cnes.fr/actualites/2025-lannee-dariane-6-quatre-lancements-autant-de-reussites"
+                                target="_blank">
+                                <img src="img/ariane6.png" alt="rocket">
+                                <div class="description">
+                                    Ariane 6. Un symbole de l'exploration spatiale européenne.
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 NATHAN COBAT. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="https://github.com/NathanCBT" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nathan-cobat-8b54a2386/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:nathancobat1@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
