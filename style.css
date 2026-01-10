@@ -1,10 +1,9 @@
 :root {
     --primary-color: #000000; 
     --secondary-color: #555;   /*sous titres */
-    --card-bg: #ffffff;     
-    --accent-color: #007bff;   
+    --card-bg: #ffffff;   
     --paper-texture: url('img/paper_texture.jpg');
-    --paper-texture-mobile: url('img/paper_texture_mobile.png'); 
+    --paper-texture-mobile: url('img/paper_texture_mobile.png');
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 15px;
     --transition: all 0.3s ease; 
@@ -27,8 +26,8 @@ html[data-theme="dark"] {
     --secondary-color: #bbbbbb;   
     --bg-color: #000000;          
     --card-bg: #1a1a1a;           
-    --paper-texture: none; 
-    --paper-texture-mobile: none;        
+    --paper-texture: none;
+    --paper-texture-mobile: none;         
     --shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
     --border-color: #333333;
 }
@@ -869,8 +868,15 @@ footer {
 
 @media (max-width: 768px) {
 
-    body {
+    .bg {
+        position: fixed;
+        inset: 0;
         background-image: var(--paper-texture-mobile);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        transform: translateZ(0);
     }
 
     .container-nav {
