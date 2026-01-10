@@ -871,9 +871,6 @@ footer {
 
     body {
         background-image: var(--paper-texture-mobile);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
     }
 
     .container-nav {
