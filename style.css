@@ -4,7 +4,7 @@
     --card-bg: #ffffff;     
     --accent-color: #007bff;   
     --paper-texture: url('img/paper_texture.jpg');
-    --paper-texture-mobile: url('img/paper_texture_mobile.jpg'); 
+    --paper-texture-mobile: url('img/paper_texture_mobile.png'); 
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 15px;
     --transition: all 0.3s ease; 
