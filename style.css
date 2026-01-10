@@ -18,6 +18,7 @@ html[data-theme="light"] {
     --bg-color: white; 
     --card-bg: #ffffff;
     --paper-texture: none;
+    --paper-texture-mobile: none;
 }
 
 
@@ -26,7 +27,8 @@ html[data-theme="dark"] {
     --secondary-color: #bbbbbb;   
     --bg-color: #000000;          
     --card-bg: #1a1a1a;           
-    --paper-texture: none;         
+    --paper-texture: none; 
+    --paper-texture-mobile: none;        
     --shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
     --border-color: #333333;
 }
@@ -869,10 +871,6 @@ footer {
 
     body {
         background-image: var(--paper-texture-mobile);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        
     }
 
     .container-nav {
