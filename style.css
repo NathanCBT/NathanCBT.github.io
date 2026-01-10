@@ -3,7 +3,8 @@
     --secondary-color: #555;   /*sous titres */
     --card-bg: #ffffff;     
     --accent-color: #007bff;   
-    --paper-texture: url('img/paper_texture.jpg'); 
+    --paper-texture: url('img/paper_texture.jpg');
+    --paper-texture-mobile: url('img/paper_texture_mobile.jpg'); 
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --border-radius: 15px;
     --transition: all 0.3s ease; 
@@ -52,6 +53,10 @@ html[data-theme="dark"] .cta-button {
     color: #000000;
     border-color: #ffffff;
 }
+html[data-theme="dark"] .cta-button-2 {
+    background-color: #000000;
+    color: #fff;
+}
 html[data-theme="dark"] .toto-buttons .cta-button:nth-of-type(2) i {
     color: #000000;
 }
@@ -60,7 +65,10 @@ html[data-theme="dark"] .cta-button:hover {
     background-color: #dddddd;
     border-color: #dddddd;
 }
-
+html[data-theme="dark"] .cta-button-2:hover {
+    background-color: #333;
+    border-color: #333;
+}
 
 html[data-theme="dark"] .timeline::before {
     background-color: #ffffff;
@@ -71,6 +79,31 @@ html[data-theme="dark"] .timeline-item::after {
     border-color: #ffffff;
 }
 
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color);
+    background-image: var(--paper-texture);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--primary-color);
+    line-height: 1.7;
+    font-size: 16px;
+}
 
 
 
@@ -295,6 +328,26 @@ header {
     border: 2px solid var(--primary-color);
 }
 
+.cta-button-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background-color: var(--card-bg);
+    color: black;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: 2px solid var(--primary-color);
+}
+
+.cta-button-2:hover {
+    text-decoration: none;
+    transform: translateY(-3px);
+    background-color: #dddddd;
+    border-color: #dddddd;
+}
+
 .cta-button:hover {
     text-decoration: none;
     transform: translateY(-3px);
@@ -302,7 +355,7 @@ header {
     border-color: #333;
 }
 
-.cta-button i {
+.cta-button .cta-button-2 i {
     font-size: 1.2rem;
 }
 
@@ -536,30 +589,6 @@ html[data-theme="dark"] .left::before {
 
 html[data-theme="dark"] .right::before {
     border-color: transparent #ffffff transparent transparent !important;
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--bg-color);
-    background-image: var(--paper-texture);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: var(--primary-color);
-    line-height: 1.7;
-    font-size: 16px;
 }
 
 
@@ -839,7 +868,12 @@ footer {
 @media (max-width: 768px) {
 
     body {
-        background-attachment: scroll;
+        background-image: var(--paper-texture-mobile);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        
     }
 
     .container-nav {
