@@ -418,12 +418,13 @@ header {
     gap: 30px;
     text-align: center;
 }
+/*
 .skill-card:hover{
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+*/
 /*.skill-card{
     background-color: var(--card-bg);
     box-shadow: var(--shadow);
@@ -581,12 +582,12 @@ header {
 .right .timeline-date {
     left: -120px; 
 }
-
+/*
 .timeline-content:hover {
     transform: scale(1.03); 
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
 }
-
+*/
 
 /* fleches de la timeline */
 html[data-theme="dark"] .left::before {
@@ -657,6 +658,7 @@ html[data-theme="dark"] .right::before {
 .contact-info-left {
     flex: 1;
 }
+/*
 .contact-item-1:hover{
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
@@ -667,6 +669,7 @@ html[data-theme="dark"] .right::before {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+*/
 .contact-item-3:hover{
     transform: scale(1.03);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
